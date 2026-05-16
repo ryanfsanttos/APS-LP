@@ -1,0 +1,1 @@
+  Este repositório é composto de um trabalho de Lógica de Programação da minha faculdade, onde devemos criar um sistema de perguntas e respostas para o usuário interagir entre o tema de "Segurança Digital".
