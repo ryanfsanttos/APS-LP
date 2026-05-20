@@ -369,7 +369,7 @@ public class DetalhamentoEstruturaDoCodigo {
                     System.out.println("\n 1ª QUESTAO");
                     System.out.println("O que são cookies em um site?");
                     System.out.println("A - Vírus que roubam senhas automaticamente.");
-                    System.out.println("B - Arqyuvis que guardam informações sobre sua navegação");
+                    System.out.println("B - Arquivos que guardam informações sobre sua navegação");
                     System.out.println("C - Programas que aceleram o carregamento");
                     System.out.println("D - Imagens salvas do site");
 
