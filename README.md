@@ -31,8 +31,8 @@ ________________________________________________________________________________
 
 | Média | Categoria |
 |---|---|
-| 9.0 a 10.0 | ⭐ Excelente |
-| 7.0 a 8.9 | 😊 Boa |
+| 9.0 a 10.0 | ⭐ Prodígio |
+| 7.0 a 8.9 | 😊 Avançado |
 | 5.0 a 6.9 | ⚠️ Atenção |
 | 0.0 a 4.9 | 📚 Precisa Melhorar |
 __________________________________________________________________________________________________________
@@ -51,6 +51,21 @@ Flags booleanas — controlar estados do programa de forma limpa e realizar veri
 Estruturas de repetição — manter o menu ativo até o usuário sair.
 Estruturas de decisão — tratar cada opção e calcular resultados.
 Concatenação de strings — exibir mensagens dinâmicas ao usuário.
+__________________________________________________________________________________________________________
+## ▶️ Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/ryanfsanttos/APS-LP/blob/main/SegurancaDigital.java
+```
+3. Compile o arquivo:
+```bash
+javac SegurancaDigital.java
+```
+4. Execute o programa:
+```bash
+java SegurancaDigital
+```
 __________________________________________________________________________________________________________
 ## 👨‍💻 Autor
 Desenvolvido por [Ryan Santos - "Santtos"]
