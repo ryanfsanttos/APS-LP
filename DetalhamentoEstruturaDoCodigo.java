@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class verificacaotestecodigo {
+public class DetalhamentoEstruturaDoCodigo {
     public static void main(String[] args) {
-
-        // Apresentação do Menu Principal do Sistema de Provas. :D
+        //=================================================================================
+        //  DECLARAÇÃO DE VARIÁVEIS, MENU PRINCIPAL E SELEÇÃO DE PROVAS A SEREM REALIZADAS
+        //=================================================================================
 
         Scanner leitura = new Scanner(System.in);
         int opcao = -1;
@@ -34,6 +35,7 @@ public class verificacaotestecodigo {
                 // ==============================
                 // PROVA 1 — SENHAS SEGURAS
                 // ==============================
+
                     System.out.println("Opção Escolhida: Prova 1!");
                     int acertosp1 = 0;
                     char respostap1;
@@ -41,6 +43,7 @@ public class verificacaotestecodigo {
                     System.out.println("\n--- PROVA 1: SENHAS SEGURAS ---");
 
                     // QUESTÃO INICIAL
+
                     if (prova1Feita) {
                         System.out.println("\nVoce ja realizou esta prova!");
                     } else {
@@ -51,7 +54,7 @@ public class verificacaotestecodigo {
                     System.out.println("C - senha12345");
                     System.out.println("D - 2444666668888888");
 
-                    // Aqui, o while é proposto para caso o usuário escolha outro tipo de opção como 'E', por exemplo, a questão irá perguntar novamente até que ele dê uma resposta válida.
+                    // AQUI, O WHILE FOI IMPLEMENTADO PARA GARANTIR QUE, CASO O USUÁRIO INFORME UMA OPÇÃO INVÁLIDA, COMO “E”, O SISTEMA SOLICITE NOVAMENTE A RESPOSTA ATÉ QUE UMA OPÇÃO VÁLIDA SEJA FORNECIDA.
                     while(true) {
                         System.out.print("Qual sua resposta? :) ");
                         
@@ -199,6 +202,7 @@ public class verificacaotestecodigo {
                 // ==============================
                 // PROVA 2 — GOLPES ONLINE
                 // ==============================
+
                     if (prova2Feita) {
                         System.out.println("\nVoce ja realizou esta prova!");
                     } else {
@@ -505,6 +509,11 @@ public class verificacaotestecodigo {
                 }
                 provasFeitas++;
                     break;
+
+                //===============================
+                // RESULTADO DA NOTA DO USUÁRIO
+                //===============================
+
                 case 4:
                     if (provasFeitas == 0) {
                         System.out.println("\n Você não realizou nenhuma prova!");
@@ -555,9 +564,18 @@ public class verificacaotestecodigo {
                     }
                     }
                     break;
+                
+                //==============================================
+                // CASO O USUÁRIO DESEJE SAIR DO MENU DE PROVAS
+                //==============================================
+
                 case 0:
                     System.out.println("Encerrando. Até breve!");
                     break;
+
+                //===================================================================
+                // CASO O USUÁRIO DIGITE QUALQUER OPÇÃO QUE NÃO SEJA 1,2, 3, 4 OU 0.
+                //===================================================================
 
                 default:
                     System.out.println("Opção Inválida! Revise sua escolha e tente novamente!");
